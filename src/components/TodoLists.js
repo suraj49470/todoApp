@@ -3,16 +3,20 @@ import Todo from './Todo';
 import {connect} from 'react-redux';
  
 
-export default function TodoLists(){
-
-              return(
+ function TodoLists({todos}){
+ 	         
+           return(
 
 
              
-               <Todo/>
+               <Todo todos={todos}/>
              
 
 
               	);
 
 }
+function mapStateToProps(state){
+	  return {"todos":state.todos}
+}
+export default connect(mapStateToProps)(TodoLists);

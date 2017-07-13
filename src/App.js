@@ -10,6 +10,7 @@ class App extends Component {
     return (
        
       <div className="container">
+          <h1 className="text text-center">REACT + REDUX TODO APP</h1>
              <Header/>
              <TodoList />
              <Footer />

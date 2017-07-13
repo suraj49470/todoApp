@@ -15,19 +15,19 @@ function FooterLink({dispatch}) {
 			   		SHOW_ALL_HANDLER(dispatch);
 			   	}
 		   }
-		    href="javascript:void(0);" className="btn btn-link">SHOW ALL</a>
+		    href="javascript:void(0);" className="btn btn-warning">SHOW ALL</a>
 
 		    <a onClick={
 			   	() => {
 			   		SHOW_ACTIVE_HANDLER(dispatch);
 			   	}
-		   } href="javascript:void(0);" className="btn btn-link">SHOW ACTIVE</a>
+		   } href="javascript:void(0);" className="btn btn-info">SHOW ACTIVE</a>
 
 			<a onClick={
 			   	() => {
 			   		SHOW_COMPLETE_HANDLER(dispatch);
 			   	}
-		   } href="javascript:void(0);" className="btn btn-link">SHOW COMPLETED</a>
+		   } href="javascript:void(0);" className="btn btn-success">SHOW COMPLETED</a>
 
 		</div>
 

@@ -9,7 +9,7 @@ export function ADD_TODO(todoPara){
 }
 
 export function DELETE_TODO(todo){
-        
+       // console.log("DELETE_TODO called",todo);
              return { type: 'DELETE_TODO' ,todo };
 
 }
