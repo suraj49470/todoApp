@@ -39,3 +39,15 @@
 .del{
   text-decoration: line-through;
 }
+
+.list_badge_completed{
+  background: rgb(92, 184, 92);
+}
+
+
+.list_badge_pending{
+  background: rgb(91, 192, 222);
+}
+.delete_badge{
+      background-color: rgb(217, 83, 79);
+}

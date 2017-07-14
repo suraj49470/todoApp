@@ -13,6 +13,14 @@ export default function todos(state = initialstate.todos,action){
 		             	   // console.log("DELETE_TODO in reducer");
 		             	    return  state;
 
+		             	 case 'TOGGLE_TODO' :
+		             	   // console.log("DELETE_TODO in reducer");
+		             	       return state.map(todo => 
+							        (todo.id === action.todo.id) 
+							          ? {...todo, completed: !todo.completed}
+							          : todo
+		             	    );   
+
 		             	default :
 		             	    return state;
 

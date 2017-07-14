@@ -13,3 +13,10 @@ export function DELETE_TODO(todo){
              return { type: 'DELETE_TODO' ,todo };
 
 }
+
+
+export function TOGGLE_TODO(todo){
+             //console.log("TOGGLE_TODO called",todo);
+             return { type: 'TOGGLE_TODO' ,todo };
+
+}
