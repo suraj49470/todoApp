@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./App.css";
 import Header from './containers/Header';
-import TodoList from './containers/TodoList';
+import TodoLists from './containers/TodoLists';
 import Footer from './containers/Footer';
 class App extends Component {
   
@@ -12,7 +12,7 @@ class App extends Component {
       <div className="container">
           <h1 className="text text-center">REACT + REDUX TODO APP</h1>
              <Header/>
-             <TodoList />
+             <TodoLists />
              <Footer />
       </div>
   

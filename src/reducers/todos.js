@@ -11,7 +11,8 @@ export default function todos(state = initialstate.todos,action){
 
 		             	case 'DELETE_TODO' :
 		             	   // console.log("DELETE_TODO in reducer");
-		             	    return  state;
+		             	   return state.filter(todo => todo.id != action.todo.id);
+		             	 
 
 		             	 case 'TOGGLE_TODO' :
 		             	   // console.log("DELETE_TODO in reducer");

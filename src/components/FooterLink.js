@@ -37,12 +37,14 @@ function FooterLink({dispatch}) {
 
 }
 function SHOW_ALL_HANDLER(dispatch){
-   dispatch(SHOW_ALL());
+	dispatch(SHOW_ALL());
 }
 function SHOW_ACTIVE_HANDLER(dispatch){
 	dispatch(SHOW_ACTIVE());
+	
 }
 function SHOW_COMPLETE_HANDLER(dispatch){
 	dispatch(SHOW_COMPLETED());
+	
 }
 export default connect()(FooterLink);

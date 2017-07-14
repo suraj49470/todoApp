@@ -39,6 +39,6 @@ function TOGGLE_TODO_HANDLER(dispatch,todo){
 	dispatch(TOGGLE_TODO(todo));
 }
 function DELETE_TODO_HANDLER(dispatch,todo){
-  dispatch(TOGGLE_TODO(todo));
+  dispatch(DELETE_TODO(todo));
 }
 export default connect()(Todo);
