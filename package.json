@@ -1,8 +1,8 @@
 {
-  "name": "todoapp",
+  "name": "todoApp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://suraj49470.github.io/todoapp",
+  "homepage": "http://suraj49470.github.io/todoApp",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
