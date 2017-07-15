@@ -24,7 +24,10 @@
 }
 
 .TodoLists_top_margin{
-    margin-top: 10px;
+      margin-top: 10px;
+      max-height: 300px;
+      overflow: scroll;
+      overflow-x: hidden
 }
 .delete_btn{
     color: rgb(255, 255, 255);
