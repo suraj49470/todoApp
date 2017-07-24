@@ -1,4 +1,4 @@
-##REACT + REDUX TODO APP
+#REACT + REDUX TODO APP
 
 for installation :
 
